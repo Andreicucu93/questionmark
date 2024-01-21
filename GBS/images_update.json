@@ -1,3 +1,3 @@
 {
-    "script": "if not exist \"C:\\Space\\\" mkdir \"c:\\Space\\\"\nif not exist \"C:\\Space\\!My Files\" mkdir \"c:\\Space\\!My Files\\\"\nrmdir \"C:\\Space\\Legacy Files\" /S /Q\nrmdir \"C:\\Space\\Scripts\\NEW PRODUCTS & 2B\" /S /Q\nrmdir \"C:\\Space\\Data\" /S /Q\n\nrobocopy \"G:\\Space Management Refresh\\Space\\Images\" C:\\Space\\Images /COPY:DT /W:15 /R:10 /S /XO\n@echo off\n\npause\nexit"
+    "script": "robocopy \"G:\\Space Management Refresh\\Space\\Images\" \"C:\\Space\\Images\" /COPY:DT /W:15 /R:10 /S /XO"
 }

@@ -1,3 +1,0 @@
-{
-    "script": "robocopy E:\\PhotoLab C:\\m /COPY:DT /W:15 /R:10 /E /XO"
-}
